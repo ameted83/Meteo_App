@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  background-color: rgb(238, 237, 237);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px;
+  width: 80%;
+  margin: auto;
+}
+
+p,
+li {
+  color: gray;
+  font-weight: 900;
+}
+
+.degree-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#degree {
+  font-size: 70px;
+}
+
+#symbol {
+  font-size: 40px;
+}
+
+#city {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+input,
+button {
+  padding: 7px;
+  cursor: pointer;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+ul {
+  width: 90%;
+}
+
+li {
+  text-align: center;
+  /* border: 2px solid white; */
+  list-style: none;
+  padding: 5px;
+}
